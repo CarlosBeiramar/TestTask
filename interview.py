@@ -165,11 +165,11 @@ def synchronize_folders(source_folder_path: str, replica_folder_path: str, chang
                 replica_file.unlink()
                 logger.info(f'Deleted file: {replica_file}')
                 changes_stats["Files deleted"] += 1
-            except Exception as e:
-                logger.error(f'Failed to delete file: {replica_file}: {e}')
+            except:
+                logger.error(f'Failed to delete file: {replica_file}')
         elif replica_file.is_dir() and not source_replica_file.exists():
             try:
-                replica_file.rmdir()
+                shutil.rmtree(replica_file)
                 logger.info(f'Deleted directory: {replica_file}')
                 changes_stats["Directories deleted"] += 1
             except:
