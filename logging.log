@@ -1,0 +1,16 @@
+2023-12-13 18:42:22,154 - INFO: Created and copied /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/source_test/test1.txt to /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/replica_test/test1.txt
+2023-12-13 18:42:22,155 - INFO: Created new directory: /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/source_test/test1 in /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/replica_test/test1
+2023-12-13 18:42:22,156 - INFO: Files created = 1; Files changed/copied = 0; Directories created = 1; Files deleted = 0; Directories deleted = 0
+
+2023-12-13 18:45:18,546 - INFO: Files created = 0; Files changed/copied = 0; Directories created = 0; Files deleted = 0; Directories deleted = 0
+
+2023-12-13 18:45:24,275 - INFO: Files created = 0; Files changed/copied = 0; Directories created = 0; Files deleted = 0; Directories deleted = 0
+
+2023-12-13 18:49:09,400 - INFO: Files created = 0; Files changed/copied = 0; Directories created = 0; Files deleted = 0; Directories deleted = 0
+
+2023-12-13 19:01:45,640 - INFO: Created and copied /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/source_test/test1.txt to /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/replica_test/test1.txt
+2023-12-13 19:01:45,641 - INFO: Created new directory: /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/source_test/test1 in /Users/carlosbeiramar/Desktop/Mine/git/Interview_challenge/replica_test/test1
+2023-12-13 19:01:45,642 - INFO: Files created = 1; Files changed/copied = 0; Directories created = 1; Files deleted = 0; Directories deleted = 0
+
+2023-12-13 19:02:45,649 - INFO: Files created = 0; Files changed/copied = 0; Directories created = 0; Files deleted = 0; Directories deleted = 0
+
