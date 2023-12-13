@@ -1,9 +1,8 @@
 import argparse
-import os
 import logging
-from pathlib import Path
 import shutil
 import time
+from pathlib import Path
 
 def define_argument_parser():
     """
