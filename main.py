@@ -94,6 +94,7 @@ def check_folders_existence(source_folder_path: Path, replica_folder_path: Path,
     Parameters:
         source_folder_path (Path): Path to the source folder .
         replica_folder_path (Path): Path to the replica folder.
+        logger (logging.Logger): The logger object.
     Returns:
         A tuple containing a boolean indicating whether both folders exist and a string describing the result.
     """
@@ -128,10 +129,10 @@ def synchronize_folders(source_folder_path: str, replica_folder_path: str, chang
     Synchronizes two folders by copying files from the source folder to the replica folder and deleting files from the replica folder that do not exist in the source folder.
 
     Parameters:
-    - source_folder_path (str): The path of the source folder.
-    - replica_folder_path (str): The path of the replica folder.
-    - changes_stats (dict): A dictionary to keep track of the changes made during synchronization.
-    - logger (logging.Logger): The logger object used for logging synchronization events.
+        source_folder_path (str): The path of the source folder.
+        replica_folder_path (str): The path of the replica folder.
+        changes_stats (dict): A dictionary to keep track of the changes made during synchronization.
+        logger (logging.Logger): The logger object used for logging synchronization events.
     """
     for source_file in source_folder_path.rglob('*'):
         replica_source_file = replica_folder_path.joinpath(source_file.relative_to(source_folder_path))
